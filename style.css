@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+
+.container{
+    height: 40vh;
+    width: 50vh;
+    margin: auto;
+    margin-top: calc((100vh - 40vh) / 2);
+    background-color: aqua;
+}
+
+custom-avatar #avatar{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: black;
+}
+
+custom-avatar{
+    display: flex;
+    justify-content: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
